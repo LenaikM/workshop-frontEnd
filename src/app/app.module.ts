@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserConnexionComponent } from './user-connexion/user-connexion.component';
 import { FormSuscribtionComponent } from './form-suscribtion/form-suscribtion.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserConnexionComponent,
-    FormSuscribtionComponent
+    FormSuscribtionComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
