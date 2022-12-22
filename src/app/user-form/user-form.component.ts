@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import {User} from "../user";
-import {UserServiceService} from "../user-service.service";
 import {ActivatedRoute, Router} from "@angular/router";
+import {UserServiceService} from "../user-service.service";
 
 @Component({
-  selector: 'app-form-suscribtion',
-  templateUrl: './form-suscribtion.component.html',
-  styleUrls: ['./form-suscribtion.component.scss']
+  selector: 'app-user-form',
+  templateUrl: './user-form.component.html',
+  styleUrls: ['./user-form.component.scss']
 })
-export class FormSuscribtionComponent {
+export class UserFormComponent {
 
   user: User;
 
